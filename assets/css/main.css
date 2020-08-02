@@ -1,0 +1,133 @@
+body {
+    background-color: #F2C2C2;
+}
+
+img {
+    max-width: 90%;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.empanada_content:hover {
+    box-shadow: 0 9px 12px #000;
+}
+
+.cup_content:hover {
+    box-shadow: 0 9px 12px #000;
+}
+
+.cake_content:hover {
+    box-shadow: 0 9px 12px #000;
+}
+
+.title {
+    font-size: 100px;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.text {
+    width: 100%;
+}
+
+.paragraph {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    font-weight: 300;
+    text-align: justify;
+    padding: 5px;
+}
+
+.link {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram {
+    size: 30px;
+}
+
+.container {
+    /* background-color: red; */
+    height: 90vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.empanada_content {
+    background-color: #F2D5CE;
+    width: 30%;
+    height: 90vh;
+    display: inline-block;
+    /* margin-right: 1em; */
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+}
+
+.cup_content {
+    background-color: #F2D5CE;
+    width: 30%;
+    height: 90vh;
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+}
+
+.cake_content {
+    background-color: #F2D5CE;
+    width: 30%;
+    height: 90vh;
+    display: inline-block;
+    margin-right: 1em;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+}
+
+.images {
+    padding: 1em;
+}
+
+.aboutme {
+    background-color: #F2D5CE;
+    width: 80%;
+    height: 80vh;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3em;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+}
+
+.aboutme img {
+    width: 300px;
+    float: left;
+    margin: 1em;
+}
+
+.aboutme .text h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: start;
+    padding-top: 0.5em;
+}

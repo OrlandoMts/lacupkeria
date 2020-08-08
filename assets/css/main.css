@@ -30,6 +30,10 @@ a {
     box-shadow: 0 9px 12px #000;
 }
 
+.aboutme:hover {
+    box-shadow: 0 9px 12px #000;
+}
+
 .title {
     font-size: 100px;
     font-family: 'Lobster', cursive;
@@ -60,7 +64,12 @@ a {
 }
 
 .fa-instagram {
-    size: 30px;
+    font-size: 30px;
+}
+
+.fa-facebook {
+    font-size: 30px;
+    margin: 5px;
 }
 
 .container {
@@ -102,7 +111,9 @@ a {
 }
 
 .images {
-    padding: 1em;
+    /* padding: 1em; */
+    display: block;
+    margin: auto;
 }
 
 .aboutme {
@@ -130,4 +141,36 @@ a {
     font-style: italic;
     text-align: start;
     padding-top: 0.5em;
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: inline;
+    }
+    .cake_content {
+        display: inline;
+        background-color: #F2D5CE;
+    }
+    .cup_content {
+        display: inline;
+    }
+    .empanada_content {
+        display: inline;
+        background-color: #F2D5CE;
+    }
+    .aboutme {
+        display: inline;
+        overflow: scroll;
+    }
+    .fa-instagram {
+        font-size: 40px;
+        margin: 5px;
+    }
+    .fa-facebook {
+        font-size: 40px;
+        margin: 5px;
+    }
+    .aboutme .text h2 {
+        text-align: center;
+    }
 }
